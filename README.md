@@ -19,9 +19,12 @@ installed. Python 3.10 or newer is recommended.
    ```
 3. **Install the dependencies** for both the backend and the frontend:
 
-   ```bash
-   pip install -r server/requirements.txt -r client/requirements.txt
-   ```
+ ```bash
+  pip install -r server/requirements.txt -r client/requirements.txt
+  ```
+   This installs all required packages, including
+   `pydantic-settings` which is needed for the configuration
+   classes in the backend.
 4. **Create environment files** from the provided examples:
 
    ```bash

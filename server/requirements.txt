@@ -4,6 +4,7 @@ sqlmodel
 prophet
 pandas
 python-dotenv
+pydantic-settings
 ruff
 black
 pytest
