@@ -277,16 +277,20 @@ def guardar_ajustes_mps(
 ) -> bool:
     """
     Guarda los ajustes del MPS para un SKU.
-    
+
+    Actualmente es un stub y simplemente devuelve ``True`` sin
+    persistir los datos en la base de datos.
+
     Args:
         db: Sesión de base de datos
         sku_id: ID del SKU
         stock_seguridad: Diccionario de stock de seguridad por semana
         scrap: Diccionario de scrap por semana
-    
+
     Returns:
-        True si se guardó correctamente, False en caso contrario
+        ``True`` si se guardó correctamente, ``False`` en caso contrario
     """
+    # TODO: Persistir ajustes de MPS en la base de datos
     # En una implementación real, estos ajustes se guardarían en una tabla
     # Por ahora, simplemente devolvemos True
     return True
