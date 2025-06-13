@@ -1,0 +1,9 @@
+fastapi==0.104.1
+uvicorn[standard]==0.23.2
+sqlmodel==0.0.8
+prophet==1.1.4
+pandas==2.1.0
+python-dotenv==1.0.0
+ruff==0.0.292
+black==23.9.1
+pytest==7.4.2
